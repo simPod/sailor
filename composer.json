@@ -22,7 +22,7 @@
     "composer/composer": "^2",
     "ergebnis/composer-normalize": "^2.13",
     "guzzlehttp/guzzle": "^7",
-    "infection/infection": "~0.21",
+    "infection/infection": "~0.24",
     "jangregor/phpstan-prophecy": "~0.8.1",
     "mockery/mockery": "^1.4",
     "phpstan/extension-installer": "^1",
