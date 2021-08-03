@@ -20,7 +20,7 @@
   },
   "require-dev": {
     "composer/composer": "^2",
-    "ergebnis/composer-normalize": "^2.13",
+    "ergebnis/composer-normalize": "^2.15",
     "guzzlehttp/guzzle": "^7",
     "infection/infection": "~0.21",
     "jangregor/phpstan-prophecy": "~0.8.1",
