@@ -53,7 +53,15 @@ class Introspector
         );
     }
 
-    /** @param array<string, bool> $introspectionQueryOptions */
+    /**
+     * @param array{
+     *     descriptions?: bool,
+     *     directiveIsRepeatable?: bool,
+     *     schemaDescription?: bool,
+     *     specifiedByURL?: bool,
+     *     typeIsOneOf?: bool,
+     * } $introspectionQueryOptions
+     */
     protected function fetchIntrospectionResult(Client $client, array $introspectionQueryOptions): Response
     {
         $response = $client->request(
